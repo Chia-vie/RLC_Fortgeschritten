@@ -32,7 +32,7 @@ else:
 #2 Draußen
 decision2 = input('"Look! I found some sticks and branches! '
                   '\nShould I pick them up or should I continue walking?"'
-                  '\nPress '1' to pick them up or '2' to keep walking.')
+                  '\nPress 1 to pick them up or 2 to keep walking.')
 if decision2 == '1':
     print('"Okay, I got them... Who knows when they could be helpful!"')
     decision3 = input('"Should I use them to make a weapon?"\n'
@@ -41,7 +41,7 @@ if decision2 == '1':
         print('"Wow! I will call this... a hand-axe!"')
 elif decision2 == '2':
     print('Suddenly some carnivor attacked you and you died a cruelsome death. The End! :)')
-
+    death = True
 #2.1: Fallgrube-Beim Drübergehen draufgehen
 #2.2: Sammeln: gute Beeren/tödliche Pilze-tot
 
