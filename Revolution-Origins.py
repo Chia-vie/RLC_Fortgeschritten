@@ -18,11 +18,13 @@ name = input('Why am I here? Wait... WHO am I? Ah! I start to remember now...My 
 print('What should I do now?')
 print('Should I go deeper in the Cave or should I go outside?')
 Cave_or_Outside = input('1: Outside\nor\n2: Cave\n')
-if Cave_or_Outside == "1":
+if Cave_or_Outside == '1':
     death = False
-else:
+elif Cave_or_Outside == '2':
+    print('You went further into the cave. Suddenly, you heard a weird sound.\n'
+          '"What could that possibly be?" You were getting scared. \nAll of the sudden, a huge bear appeared behind you and bit your head off. Adios, {}!  ;)'.format(name))
     death = True
-    exit
+    exit(0)
 
 #1.1:Rausgehen    -Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
 
