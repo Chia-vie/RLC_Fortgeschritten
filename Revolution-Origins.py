@@ -8,10 +8,6 @@ Skizze Our Origins
 #inports:
 import random as r
 
-
-
-#1 Dunkle Höhle
-#alles ist schwarz, bis text erscheint:
 death = False
 while death == "true":
     print("Test")
@@ -26,16 +22,29 @@ if Look_or_Outside == "1":
     death = False
 else:
     death = True
+    exit
 def stocke():
     global
     print("Should I go in the Cave or should I go get sticks?")
      = input('1: Cave\nor\n2: Sticks\n')
 #1.1:Rausgehen    -Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
 
+
 #1.2.: In Höhle umsehen - Steine/Tiefer in die Höhle gehen-tot
 
 #2 Draußen
-
+decision2 = input('"Look! I found some sticks and branches! '
+                  '\nShould I pick them up or should I continue walking?"'
+                  '\nPress 1 to pick them up or 2 to keep walking.')
+if decision2 == '1':
+    print('"Okay, I got them... Who knows when they could be helpful!"')
+    decision3 = input('"Should I use them to make a weapon?"\n'
+          'Yes(1) or No(2)?')
+    if decision3 == '1':
+        print('"Wow! I will call this... a hand-axe!"')
+elif decision2 == '2':
+    print('Suddenly some carnivor attacked you and you died a cruelsome death. The End! :)')
+    death = True
 #2.1: Fallgrube-Beim Drübergehen draufgehen
 #2.2: Sammeln: gute Beeren/tödliche Pilze-tot
 
