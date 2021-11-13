@@ -34,3 +34,12 @@
 ### Dateien managen
 
 + https://colab.research.google.com/drive/1U9I7bNYy4VqvwkytvalnsyHiHBb2dtl8?usp=sharing
+
+
+
+
+
+
+
+
+### Wer das findet ist cool
