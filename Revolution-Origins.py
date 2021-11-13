@@ -8,17 +8,23 @@ Skizze Our Origins
 #inports:
 import random as r
 
-
-
-#1 Dunkle Höhle
-#alles ist schwarz, bis text erscheint:
-print('"Where am I?"')
-name = input('"Why am I here? Wait... WHO am I? Ah! I start to remember now...My name is \n"')
+death = False
+while death == "true":
+    print("Test")
+    exit(0)
+print('Where am I?')
+name = input('Why am I here? Wait... WHO am I? Ah! I start to remember now...My name is \n')
         ###passt so weit
-print('"What should I do now?"')
-#Die Knöpfen mit den 2 Entscheidungen erscheinen
+print('What should I do now?')
+print('Should I go deeper in the Cave or should I go outside?')
+Cave_or_Outside = input('1: Outside\nor\n2: Cave\n')
+if Cave_or_Outside == "1":
+    death = False
+else:
+    death = True
 
-#1.1: Rausgehen-Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
+#1.1:Rausgehen    -Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
+
 
 #1.2.: In Höhle umsehen - Steine/Tiefer in die Höhle gehen-tot
 
