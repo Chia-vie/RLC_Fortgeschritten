@@ -22,6 +22,7 @@ if Cave_or_Outside == "1":
     death = False
 else:
     death = True
+    exit
 
 #1.1:Rausgehen    -Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
 
