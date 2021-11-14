@@ -13,9 +13,6 @@ import time
 f1antwort1 = 'a'
 f1antwort2 = 'b'
 f1antwort3 = 'c'
-a = 'Ich möchte Jagen!'
-b = 'Ich suche mir lieber Holz und versuche mich warmzuhalten'
-c = 'Ich renne irgendwo hin'
 print(Fore.GREEN + 'Hallo. Mein Name ist Max ich bin einer der Entwickler dieses Spieles.\nDie Regeln dieser welt sind simpel:')
 time.sleep(2)
 print(Fore.RED + 'Rote Texte sind Todesnachrichten')
@@ -86,16 +83,6 @@ while True:
           quit()
      if weg == 'b':
       break
-
-#Kapitel 2 Das Lagerfeuer
-print(Fore.MAGENTA + 'Du sitzt schon eine Weile am Lagerfeuer')
-
-#Speer
-    #Speer Waffe Zum Geräusch
-#sitzen
-    #Geräusch lauter, verstecken , Geräusch läuft weg, du laufen nach. Start Kapitel 3
-#zum Geräusch
-    #Du wirst gegessen
 
 #Kapitel 3 Das Haus
 #Info: Du folgst dem Geräusch und landest beim Haus, es gibt Schuppen, Gehäge Schattenhunde, Friedhof
