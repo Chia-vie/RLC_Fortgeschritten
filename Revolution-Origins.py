@@ -8,6 +8,9 @@ Skizze Our Origins
 import random as r
 import keyboard
 import time
+
+
+
 death = False
 while death == "true":
     print("Test")
