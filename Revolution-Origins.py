@@ -59,4 +59,3 @@ elif decision2 == '2':
     death = True
 #2.1: Fallgrube-Beim Drübergehen draufgehen
 #2.2: Sammeln: gute Beeren/tödliche Pilze-tot
-death = False
