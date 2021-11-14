@@ -20,9 +20,11 @@ print('Should I look around in the Cave or should I go outside?')
 Look_or_Outside = input('1: Outside\nor\n2: Cave\n')
 if Look_or_Outside == "1":
     death = False
-else:
+elif Cave_or_Outside == '2':
+    print('You went further into the cave. Suddenly, you heard a weird sound.\n'
+          '"What could that possibly be?" You were getting scared. \nAll of the sudden, a huge bear appeared behind you and bit your head off. Adios, {}!  ;)'.format(name))
     death = True
-    exit
+    exit(0)
 def stocke():
     global
     print("Should I go in the Cave or should I go get sticks?")
@@ -43,7 +45,7 @@ if decision2 == '1':
     if decision3 == '1':
         print('"Wow! I will call this... a hand-axe!"')
 elif decision2 == '2':
-    print('Suddenly some carnivor attacked you and you died a cruelsome death. The End! :)')
+    print('You kept walking. Suddenly some carnivor attacked you and you died a cruelsome death. The End! :)')
     death = True
 #2.1: Fallgrube-Beim Drübergehen draufgehen
 #2.2: Sammeln: gute Beeren/tödliche Pilze-tot
