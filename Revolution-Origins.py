@@ -45,7 +45,6 @@ elif Look_or_Outside == '2':
           '"What could that possibly be?" You were getting scared. \nAll of the sudden, a huge bear appeared behind you and bit your head off. Adios, {}!  ;)'.format(name))
     death = True
     exit
-#1.2.: In Höhle umsehen - Steine/Tiefer in die Höhle gehen-tot
 
 #2 Draußen
 decision2 = input('"Look! I found some sticks and branches! '
