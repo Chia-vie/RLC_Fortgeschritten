@@ -4,10 +4,10 @@ authors: Bernhard Wolf
          Katharina Melchart
 Skizze Our Origins
 '''
-
 #inports:
 import random as r
-
+import keyboard
+import time
 death = False
 while death == "true":
     print("Test")
@@ -24,22 +24,32 @@ elif Cave_or_Outside == '2':
     print('You went further into the cave. Suddenly, you heard a weird sound.\n'
           '"What could that possibly be?" You were getting scared. \nAll of the sudden, a huge bear appeared behind you and bit your head off. Adios, {}!  ;)'.format(name))
     death = True
-    exit(0)
-def stocke():
-    global
-    print("Should I go in the Cave or should I go get sticks?")
-     = input('1: Cave\nor\n2: Sticks\n')
-#1.1:Rausgehen    -Stöcke holen-Waffe (Faustkeil) bauen/zurück in die Höhle gehen
-
-
+    exit
+def minigame():
+    print("This is the Minigame, press a to gather Wood or press d to gather stone, exit with e")
+    global wood
+    global stone
+    wood = 0
+    stone = 0
+    while True:
+        if keyboard.is_pressed('a'):
+            wood = wood + 1
+            print("\rYou got 1 wood!")
+            time.sleep(0.5)
+        if keyboard.is_pressed('d'):
+            stone = stone + 1
+            print("\rYou got 1 stone!")
+            time.sleep(0.5)
+        if keyboard.is_pressed('e'):
+            break
 #1.2.: In Höhle umsehen - Steine/Tiefer in die Höhle gehen-tot
 
 #2 Draußen
 decision2 = input('"Look! I found some sticks and branches! '
-                  '\nShould I pick them up or should I continue walking?"'
+                  '\nShould I pick them up (minigame) or should I continue walking?"'
                   '\nPress 1 to pick them up or 2 to keep walking.')
 if decision2 == '1':
-    print('"Okay, I got them... Who knows when they could be helpful!"')
+    minigame()
     decision3 = input('"Should I use them to make a weapon?"\n'
           'Yes(1) or No(2)?')
     if decision3 == '1':
@@ -49,4 +59,4 @@ elif decision2 == '2':
     death = True
 #2.1: Fallgrube-Beim Drübergehen draufgehen
 #2.2: Sammeln: gute Beeren/tödliche Pilze-tot
-
+death = False
