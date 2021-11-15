@@ -13,7 +13,7 @@ Install package:
 pip install -i https://test.pypi.org/simple/ euerpackage==0.0.1
 
 probably doesn't work, use this instead:
-pip install --extra-index-url https://testpypi.python.org/pypi mockingpy
+pip install --extra-index-url https://testpypi.python.org/pypi euerpackage
 
 
 PYPI-release:
