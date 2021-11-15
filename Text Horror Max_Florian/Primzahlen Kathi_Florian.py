@@ -19,3 +19,5 @@ else:
         print(primzahl, 'ist durch', nichtprimzahlliste, 'teilbar, ist somit keine primzahl')
     if a == True:
         print(primzahl, 'ist eine Primzahl')
+
+
