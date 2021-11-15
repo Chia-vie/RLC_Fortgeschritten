@@ -9,7 +9,7 @@ fenster.title('App mit Hintergrundbild')
 bild = tk.PhotoImage(file="spooky.png")
 
 # Canvas erzeugen
-feld = tk.Canvas(fenster, width=400,height=400)
+feld = tk.Canvas(fenster, width=400, height=400)
 
 # Canvas platzieren
 feld.pack(fill="both", expand=True)

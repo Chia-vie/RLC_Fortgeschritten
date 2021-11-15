@@ -37,9 +37,9 @@ def haupt_ansicht(fenster):
     s2 = Seite2(fenster, container)
     s3 = Seite3(fenster, container)
 
-    b1 = tk.Button(buttonframe, text="Page 1", command=s1.show)
-    b2 = tk.Button(buttonframe, text="Page 2", command=s2.show)
-    b3 = tk.Button(buttonframe, text="Page 3", command=s3.show)
+    b1 = tk.Button(buttonframe, text="Seite 1", command=s1.show)
+    b2 = tk.Button(buttonframe, text="Seite 2", command=s2.show)
+    b3 = tk.Button(buttonframe, text="Seite 3", command=s3.show)
 
     b1.pack(side="left")
     b2.pack(side="left")
@@ -49,6 +49,9 @@ def haupt_ansicht(fenster):
 
 
 fenster = tk.Tk()
-haupt_ansicht(fenster)
+
 fenster.geometry("400x400")
+
+haupt_ansicht(fenster)
+
 fenster.mainloop()
