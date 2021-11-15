@@ -1,0 +1,24 @@
+Testpypi-release:
+
+cd package
+pip install --upgrade pip
+pip install --upgrade twine
+python setup.py sdist bdist_wheel
+twine upload -r testpypi dist/*
+userame = __token__
+password = pypi-AgENdGVzdC5weXBpLm9yZwIkZWNiNTRiNDktN2ZlYi00MmMyLWE5NDAtNDMyODJiN2FmNzgyAAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiCjdTiUJIsh91S1bIX0-HAJrKYCEuIs115xqHY5d_pEAw
+
+
+Install package:
+
+pip install -i https://test.pypi.org/simple/ mockingpy==0.0.1
+
+probably doesn't work, use this instead:
+pip install --extra-index-url https://testpypi.python.org/pypi mockingpy
+
+
+PYPI-release:
+
+twine upload dist/*
+username = PYPI username
+password = PYPI password
