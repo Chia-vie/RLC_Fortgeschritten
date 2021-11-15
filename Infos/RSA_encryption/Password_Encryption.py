@@ -5,9 +5,6 @@ def encrypt(message, e, n):
 def decrypt(message, d, n):
     return ((message ** d) % n)
 
-def text_to_num():
-    pass
-
 password = 'abcd'
 
 encrypted = []
