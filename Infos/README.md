@@ -37,13 +37,3 @@
 
 ### RSA 
 + https://colab.research.google.com/drive/1SzKDQJB-zhASyBS2yKRhaL1ph-Tg6Fyf
-
-
-
-
-
-
-
-
-### Wer das findet ist cool
-###Stimmt
